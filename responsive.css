@@ -1,0 +1,42 @@
+@media only screen and (min-width: 701px) and (max-width: 1010px) {
+    .resultScreen h2{
+        font-size: 1.7rem;
+    }
+
+    .gamegrid {
+        grid-template-columns: repeat(3,13vw);
+        grid-template-rows: repeat(3,13vw);
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+    .container {
+        flex-direction: column;
+    }
+    
+    .gameScreen{
+        width: 100vw;
+        height: 46vh;
+    }
+    
+    .resultScreen{
+        width: 100vw;
+        height: 46vh;
+    }
+
+    .resultScreen h2{
+        font-size: 1.7rem;
+        padding-bottom: 25px;
+    }
+
+    .resultScreen .turn{
+        padding-bottom: 25px;
+    }
+    
+    .gamegrid {
+        grid-template-columns: repeat(3,25vw);
+        grid-template-rows: repeat(3,25vw);
+    }
+
+}
